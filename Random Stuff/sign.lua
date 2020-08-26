@@ -3,6 +3,7 @@ local gpu = com.gpu
 local screen = com.screen
 
 gpu.setResolution(28, 4)
+os.execute("cls")
 local width, height = 30, 4
 local text = "Manufacturing and Storage"
 
